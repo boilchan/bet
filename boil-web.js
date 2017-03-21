@@ -26,7 +26,7 @@ function myslide(){
     }
     else{
         $(".self-btn").on("click",up("more"));
-        $(".self-btn").animate({width:"100px",opacity:"1"},1000,
+        $(".self-btn").animate({width:"100px",opacity:"1"},1500,
             function(){
             $(".plant").animate({top:$(".back").position().top},500)
             });
