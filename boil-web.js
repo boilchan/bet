@@ -19,7 +19,7 @@ function scroll(a) {
 function myslide(){
     if(tag){
         $(".self-btn").on({click:down("more")},{click:scroll("job")});//绑定两个操作不能直接安操作顺序书写，需要用toggle或者bind
-        $(".self-btn").animate({width:"1140",opacity:"0.6"},1500,
+        $(".self-btn").animate({width:"100%",opacity:"0.6"},1500,
             function(){
             $(".plant").animate({top:$(".back").position().top},900)
             });
