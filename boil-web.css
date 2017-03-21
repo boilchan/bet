@@ -9,7 +9,9 @@ body {
     padding-bottom: 40px;
     color: #5a5a5a;
 }
-
+/* p{
+    text-indent:2em;
+} */
 a{
     text-decoration-line: none;
 }
@@ -73,7 +75,7 @@ a{
     position: relative;
     left: -40px;
 }
-
+-indent
 .carousel .item .self-btn{
     position: absolute;
 }
@@ -100,7 +102,9 @@ a{
     margin-left: 10px;
 }
 
-
+.textin{
+text-indent:2em;
+}
 
 
 .marketing .col-lg-4 #cs3 img{
