@@ -175,6 +175,10 @@ a{
     -ms-transition: 2s ease;
 
 }
+
+.text{
+    text-indent: 2em;
+}
 /*.ps0{*/
     /*position: absolute;*/
     /*!*left: 50px;*!*/
